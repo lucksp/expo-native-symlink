@@ -12,6 +12,7 @@ testing symlinking with expo's 46 SDK.
 > This assumes you have an NPM package you can link from locally. Ensure you run `yarn link` in your folder OUTSIDE of this repo.
 
 - Inside this project, open `metro.config.js` file and **uncomment** the lines indicated. Ensure you update the path correctly to your local project where your link from above comes from.
+- Then run `yarn link @myLocalLink`
 
 - Restart your server `yarn start`
 
